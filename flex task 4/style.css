@@ -1,0 +1,24 @@
+.flex-Container{
+    display: flex;
+}
+.flex-child1,.flex-child2,.flex-child3,.flex-child4,.flex-child5{
+width: 200px;
+height: 100px;
+margin: 2px;
+background-color: rgb(175, 160, 188);
+}
+.flex-child1{
+    order: 2;
+}
+.flex-child2{
+    order: 5;
+}
+.flex-child3{
+    order: 4;
+}
+.flex-child4{
+    order: 3;
+}
+.flex-child5{
+    order: 1;
+}

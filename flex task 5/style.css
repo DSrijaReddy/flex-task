@@ -1,0 +1,21 @@
+.flex-Container {
+    display: flex;
+    align-items: flex-start; 
+    height: 200px;
+    border: 2px solid black;
+    padding: 1px;
+  }
+  .flex-child1,.flex-child2,.flex-child3{
+    width: 500px;
+    height:50px;
+    border: 2px solid ;
+    background-color: bisque;
+
+  }
+  .flex-child2{
+    align-self: center;
+  }
+  
+ 
+  
+  

@@ -1,0 +1,14 @@
+.flex-Container{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
+.flex-child{
+    margin: 10px;
+    font-size: 2rem;
+    align-items: space-between;
+    background-color: rgb(148, 176, 186);
+}

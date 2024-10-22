@@ -1,0 +1,22 @@
+.flex-Container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-child1,.flex-child2,.flex-child3{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(232, 165, 97);
+    margin: 2px;
+}
+    /* border: 2px solid; */
+
+.flex-child1{
+    flex-basis:100px;
+}
+.flex-child2{
+    flex-basis:200px;
+}
+.flex-child3{
+    flex-basis:auto;
+}

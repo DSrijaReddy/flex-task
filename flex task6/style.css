@@ -1,0 +1,21 @@
+.flex-Container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.flex-child1,.flex-child2,.flex-child3{
+    /* width: 200px; */
+    height:50px;
+    border: 2px solid;
+    background-color: rgb(189, 189, 207);
+    padding: 10px;
+}
+.flex-child1{
+  flex: 2 1 150px; 
+}
+.flex-child2{
+    flex: 1 0 100px;
+}
+.flex-child3{
+    flex: 1 2 200px;
+}

@@ -1,0 +1,22 @@
+.flex-Container{
+    /* width: 500px;
+    height: 500px;
+    box-sizing: border-box; */
+    display:flex;
+}
+.flex-child1,.flex-child2,.flex-child3{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin: 2px;
+    text-align: center;
+}
+.flex-child1{
+    flex-grow: 1;
+}
+.flex-child2{
+    flex-grow: 2;
+}
+.flex-child3{
+    flex-grow: 0;
+}
